@@ -1,0 +1,231 @@
+@media screen and (min-width: 1900px){
+}
+@media screen and (min-width: 1600px){
+}
+@media (min-width: 991px) and (max-width: 1399px){
+  .hero-item{
+    height:500px;
+    padding:30px 0px;
+  }
+  .main-heading{
+    font-size:38px;
+    line-height:120%;
+  }
+  .sub-heading{
+    font-size:30px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    header .icon-list{
+      margin-left:auto;
+      order:2;
+    }
+  header .navbar-brand{
+    order:1;
+  }
+  header .navbar-nav {
+      position: fixed;
+      top: 138px;
+      left: 0;
+      height: 100vh;
+      width: 35%;
+      padding: 20px 20px 20px 50px;
+      gap: 20px;
+      transform: translateX(-100%);
+  }  
+  header #collapsibleNavbar.show .navbar-nav {
+      transform: translateX(0px);
+      transition: .5s all;
+  }
+  .sticky-header .navbar-nav{
+    top:98px;
+  }
+  .hero-item .hero-content {
+      flex-wrap: wrap;
+      gap: 20px;
+  }
+  .hero-item .hero-content .main-heading {
+      flex: 0 0 100%;
+  }
+  .sub-heading{
+     font-size:24px;
+  }
+  .shop-all {
+      padding: 60px 10px 80px 10px;
+  }
+  .poster, .our-customer, .our-facelity, .contact-us, .about-us,
+  .our-mission, .site-section, .product-like, .our-vision{
+      padding: 60px 10px;
+  }
+  .description-tab{
+    padding:0px 10px 60px 10px;
+  }
+  .single-section{
+    padding:35px 10px 60px 10px;
+  }  
+  .facelity-box{
+    padding:0;
+  }
+  .footer-heading{
+    margin-bottom:18px;
+  }
+  footer {
+      padding: 60px 10px 20px 10px;
+  }  
+  .poster-img img{
+    object-fit:contain;
+  }
+  .shop-all .section-heading, .our-customer .section-heading, .product-like .section-heading, .site-section .section-heading {
+      margin-bottom: 30px;
+  }
+  .extra-hero, .new-arrival{
+    height:300px;
+   }
+  .product-section {
+      padding: 0 0 60px;
+  }
+  .pagination-box{
+    margin-top:30px;
+   }
+  .about-us .row:first-child {
+      margin-bottom: 75px;
+  }
+  .about-us .about-img{
+    height:400px;
+  }
+  .about-us .row:last-child{
+    flex-direction:column-reverse;
+  }
+  .about-us .about-img img, .our-mission .mission-img img{
+    object-position:left;
+  }
+  .site-content .site-heading{
+    font-size:18px;
+    margin:16px 0px;
+}
+  .product-item .single-product-item, .poster-item-img{
+    height:400px;
+  }
+  .single-content{
+    margin-top:20px;
+  }
+}
+@media (min-width: 767px) and (max-width: 991px){
+  .hero-item{
+    height:500px;
+  }
+  .shop-content .owl-dots{
+    width:70%;
+  }
+  .shop-content .owl-dots .owl-dot{
+    width:20%;
+   }
+  .main-heading {
+      font-size: 35px;
+  }
+  .poster-img{
+    height:200px;
+  }
+  .sort-box .sort-item .box-two{
+    flex:0 0 40%;
+  }
+  #top_product .shop-content .owl-nav {
+    bottom: -50px;
+}  
+}
+@media screen and (max-width: 767px){
+   header .navbar-nav {
+      width: 60%;
+      padding: 20px;
+  }  
+  .top-header {
+    height: 80px;
+  }  
+  .navbar-brand {
+      width: 75px;
+      height: 75px;
+  }  
+  .bottom-header {
+      height: 85px;
+  }
+  .top-header .top-header-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 25px;
+  }
+  header .navbar-nav {
+      width: 60%;
+      padding: 20px;
+      top:165px;
+  }
+  .sticky-header .navbar-nav{
+    top:85px;
+  }
+  .main-heading {
+      font-size: 28px;
+  }
+  .hero-item{
+    height:auto;
+    padding:60px 10px;
+  }
+  .poster-img{
+    height:100px;
+  }
+  .review-content .owl-nav button.owl-prev{
+    left:-5px;
+  }
+  .review-content .owl-nav button.owl-next{
+    right:-5px;
+  }
+  footer .footer-bottom p {
+      text-align: left;
+  }
+  .footer-select, .footer-bottom, .payment-link {
+      margin-top: 10px;
+  }
+  .sort-box .sort-item {
+      flex-wrap: wrap;
+      justify-content: center;
+  }  
+  .sort-box .sort-item .box-two {
+      flex: 0 0 80%;
+  }
+  .extra-hero, .new-arrival {
+      padding: 20px 10px;
+  }
+  .product-box{
+     margin-top:30px;
+  }
+  .shop-content .owl-dots {
+      width: 100%;
+      left: 0;
+      transform: translate(0);
+      bottom: -40px;
+      height: auto;
+  }
+  .shop-content .owl-dots .owl-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 100%;
+      margin-right: 5px;
+  }
+  .shop-content .owl-dots .owl-dot span {
+      border-radius: 100%;
+  }
+  .shop-content .owl-nav{
+    bottom:-55px;
+  }
+  .footer-heading{
+    font-size:20px;
+  }
+  .our-mission .row{
+    flex-direction:column-reverse;
+  }
+  .single-content .quality-button .btn-all {
+      flex: 0 0 60%;
+  }
+  .tab-details .nav.nav-tabs{
+    gap:25px;
+  }
+}
